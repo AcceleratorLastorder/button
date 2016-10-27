@@ -1,0 +1,38 @@
+body{
+background-color: rgba(255, 66, 0, 0.5);
+
+}
+div{
+  display: inline-block;
+  margin: 20px;
+  padding: 15px;
+  position: relative;
+background-color: rgba(255, 0, 85, 0.5);
+border: 1px solid;
+}
+.bouton:hover{
+transition: transform 2s;
+transform: scale(2);
+transition-timing-function: ease-in-out;
+
+}
+.buttonneutre{
+  background-color: #4CAF50;
+}
+.buttonvalider{
+background-color: #008CBA;
+border-radius: 15px;
+}
+.buttonannuler{
+background-color: #e7e7e7
+border-radius: 50%;
+  }
+.buttonvaliderdiv1{
+  background-color: rgba(109, 158, 65, 0.8);
+  }
+.buttonneutrediv3{
+background-color: rgba(25, 78, 65, 0.5);
+}
+.div4{
+background-color: rgba(55, 5, 10, 0.5);
+}
